@@ -1,0 +1,28 @@
+.Selector {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.Selector_wrapper {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  background-color: #eeeeee;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin: 0;
+
+  &:hover,
+  &:focus {
+    background-color: #fefefe;
+  }
+}
+
+.Selector__label {
+  display: block;
+  font-family: "Arial", "Helvetica", sans-serif;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #fafafa;
+  text-shadow: #000 1px 0 1px, #000 0 1px 1px, #000 -1px 0 1px, #000 0 -1px 1px;
+}
